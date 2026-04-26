@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php *)",
+      "Read(//c/xampp/mysql/bin/**)",
+      "Bash(./mysql.exe -u root ossaka_db -e ' *)",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root ossaka_db -e \"SELECT id, nama, icon, slug FROM bidang ORDER BY urutan;\")",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root -e \"USE ossaka_db; SELECT id, nama, slug FROM bidang;\" 2>&1)",
+      "PowerShell(Get-Content \"C:\\\\xampp\\\\htdocs\\\\OsisADB\\\\database\\\\migrate_bidang_icon.sql\" | & \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" \"-uroot\" 2>&1)",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysqladmin.exe\" \"-uroot\" \"status\" 2>&1 | Out-String)"
+    ]
+  }
+}

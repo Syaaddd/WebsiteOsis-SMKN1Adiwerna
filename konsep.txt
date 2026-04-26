@@ -1,0 +1,35 @@
+Ini dia web design OSSAKA lengkap dengan tema **Biru + Merah + Putih** — terinspirasi bendera Indonesia! Klik tab-tab di atas untuk menjelajahi semua bagian.
+
+---
+
+Berikut ringkasan desain system-nya untuk diimplementasikan ke CSS:
+
+**Palet Warna (CSS Variables)**
+```css
+:root {
+  /* BIRU */
+  --biru-gelap:   #1338A8;  /* navbar, header */
+  --biru-utama:   #1A56DB;  /* primary, hero bg */
+  --biru-terang:  #3B82F6;  /* link, aksen */
+  --biru-muda:    #DBEAFE;  /* badge bg, info bg */
+
+  /* MERAH */
+  --merah:        #DC2626;  /* CTA, aksen penting */
+  --merah-gelap:  #991B1B;  /* footer, hover merah */
+  --merah-muda:   #FEE2E2;  /* badge merah */
+
+  /* NETRAL */
+  --putih:        #FFFFFF;
+  --teks:         #1E293B;
+  --teks-muted:   #475569;
+  --teks-hint:    #94A3B8;
+}
+```
+
+**Filosofi Desain:**
+- Biru mendominasi (navbar, hero, CTA utama) → kesan resmi & profesional
+- Merah sebagai aksen tegas (tombol CTA, garis pembatas section, badge prestasi) → energi dan semangat
+- Putih sebagai ruang napas (card, latar konten) → bersih dan mudah dibaca
+- Stripe tiga warna biru-putih-merah muncul di hero & footer sebagai elemen identitas nasional
+
+Mau lanjut ke mana? Saya bisa langsung **generate kode PHP + CSS** untuk salah satu halaman, atau mau buat **halaman admin panel**-nya dulu?
